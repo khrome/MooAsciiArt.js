@@ -21,9 +21,9 @@ or
     
 Now let's set h2 elements to the figlet doom font
 
-    MooAsciiArt.convertTags{
+    MooAsciiArt.convertTags({
         h2:'doom'
-    }
+    });
 
 what options are available?
 
