@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>MooAsciiArt Demo Page</title>
+        <script type="text/javascript" src="mootools-core-1.3-full-nocompat.js"></script>
+        <script type="text/javascript" src="../Source/MooAsciiArt.js"></script>
+        <script>
+            document.addEvent('domready', function(){
+                document.id('demo_image').toAsciiArt(true);
+                MooAsciiArt.convertTags({h2:'Doom'});
+            });
+        </script>
+    </head>
+    <body>
+        <h2>truth</h2>
+        <p>For more ASCII fun, head over to the <a href="http://patternweaver.com/WebConsole/Demo/">WebConsole</a>.</p>
+        <img id="demo_image" src="truth.png">
+    </body>
+</html>
