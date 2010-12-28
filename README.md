@@ -3,7 +3,7 @@ MooAsciiArt.js
 
 This is a port of two libraries combined into one, modified and extended, for the purpose of creating an ASCII display object capable of converting any DOM node into ASCII. It currently works on image nodes and any nodes you explicitly map to figlet fonts.
 
-![Screenshot](http://patternweaver.com/MooAsciiArt/MooAsciiArt.png)
+![Screenshot](http://patternweaver.com/MooAsciiArt/MooAsciiArt.jpg)
 
 How to use
 ----------
